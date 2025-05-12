@@ -16,26 +16,18 @@
         </ul>
     </nav>
   
- 
-
-    <header>
+     <header>
         <div class="logo">Morty FaniSivu</div>
-        <header>
-        <header>                                                      
-        </header> 
-        <h1>Mäyräkoira kulttin liiyminen👇! 💖</h1>
+                <h1>Mäyräkoira kulttiin liittyminen👇! 💖</h1>
     </header>
   
-    
-    <main>
-        
-        <section>
+        <main>
+                <section>
             <h2>Yhteydenotto🌭!</h2>
-            <p>Jos haluat liityä Mäyräkoira kulttin ! 🌭</p>
+            <p>Jos haluat liittyä Mäyräkoira kulttiin! 🌭</p>
             <img src="/KUVA/websivu/IMG_2372.jpg" alt="Mortyn kuva" class="responsive-img" width="200" height="300">
         </section>
-    </main>
-    <section>
+        <section>
         <h2>Ota yhteyttä</h2>
         <form action="#" method="post">
           <label for="name">Nimi:</label>
@@ -58,16 +50,17 @@
         <a href="https://www.instagram.com/morticus_mort?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
             👉 Seuraa Mortya Instagramissa!
         </a>
-    
-    </div>
+        </div>
     <footer>
         <p>© 2025 Morty FaniSivu</p>
     </footer>
 </body>
 </html>
+
+
 <style>
 /* Suunnittelu pienemmille näytöille */
-/ Mobiililaitteille */
+/* Mobiililaitteille */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
@@ -81,9 +74,6 @@
         font-size: 2em;
     }
 }
->
-    
-<style>
 * {
     margin: 0;
     padding: 0;
@@ -94,7 +84,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff0f5;
-    color: #333;
+    color: #fdfdfd;
     line-height: 1.6;
     padding-top: 70px; /* Tilaa navbariin */
 }
@@ -166,18 +156,18 @@ header h1 {
     margin-bottom: 10px;
 }
 
-header p {
-    font-size: 1.2em;
-}
-
 /* Content */
 main {
+    text-align: center; /* Center-align all text inside the main tag */
+    color: rgb(228, 136, 185); /* Change text color to white */
     padding: 20px;
 }
 
 .responsive-img {
-    max-width: 100%;
-    height: auto;
+    display: block; /* Make the image a block element */
+    margin: 20px auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 10px;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
     margin-top: 20px;
@@ -211,6 +201,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    text-align: left; /* Align form labels and inputs to the left */
 }
 
 input, textarea {
